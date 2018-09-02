@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from recommender.models import Artist
+from recommender_app.models import Artist
 
 
 class ArtistSerializer(serializers.ModelSerializer):

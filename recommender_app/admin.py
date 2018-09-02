@@ -1,5 +1,5 @@
 from django.contrib import admin
-from recommender.models import Artist
+from recommender_app.models import Artist
 
 # Register your models here.
 
