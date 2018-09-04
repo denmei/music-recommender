@@ -9,3 +9,9 @@ class RecommenderTest(TestCase):
         result_len = 5
         result = get_artist_recommendations(artist, 5)
         self.assertEqual(len(result), result_len)
+
+    def test_not_available_artist(self):
+        artist = "not available"
+        result_len = 0
+        result = get_artist_recommendations(artist, 5)
+        self.assertEqual(len(result), result_len)
