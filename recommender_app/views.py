@@ -1,7 +1,6 @@
 from django.http import JsonResponse
 from recommender_app.ml_model.recommender import get_artist_recommendations
 from django.shortcuts import render
-import json
 
 
 def artist_prediction(request):
