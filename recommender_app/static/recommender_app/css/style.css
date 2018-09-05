@@ -10,8 +10,8 @@
     text-align: center;
 }
 
-h1 {
-    font-size: 5em!important;
+#main h1 {
+    font-size: 8vw;
 }
 
 #main {
