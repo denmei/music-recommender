@@ -9,4 +9,5 @@ def get_recommendation(request):
     artist = data['artist']
     number = int(data['number'])
     response = dict(recommendations=get_artist_recommendations(artist, number))
+    print(response)
     return Response(response)
